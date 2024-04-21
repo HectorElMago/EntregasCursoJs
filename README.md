@@ -1,1 +1,1 @@
-Entrega 1 Curso Javascript - Héctor Missene
+La entrega 2 la oriente ligas de futbol - Héctor Missene
