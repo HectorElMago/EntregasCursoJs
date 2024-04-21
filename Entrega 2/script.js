@@ -57,6 +57,7 @@ class AdministradorDeLigas {
 let administradorDeLigas = new AdministradorDeLigas(); // Instancia de AdministradorDeLigas
 let opcion1Seleccionada;
 const opcionesMenuInicial = ["1. Crear liga", "2. Revisar liga", "3. Salir"];
+let condition = true;
 
 do {
   if (administradorDeLigas.ligas.length === 0) {
@@ -112,4 +113,4 @@ do {
   } else {
     alert("Opción no válida");
   }
-} while (true); // Salgo mediante break
+} while (condition);
