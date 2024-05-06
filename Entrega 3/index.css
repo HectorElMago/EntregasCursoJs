@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #021c1f;
+  color: #dad3bf;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0 50px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p {
+  margin: 0 auto 30px;
+  max-width: 800px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px auto;
+  max-width: 800px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+ul {
+  list-style: circle;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+li {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.liga {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #021c1f;
+  border: 1px solid #dad3bf;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.equipos {
+  margin-top: 20px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 50px;
+  gap: 5vh;
+}
+
+.add {
+  background-color: #021c1f;
+  border: 5px solid #dad3bf;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.add h2 {
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dad3bf;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #dad3bf;
+  color: #021c1f;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  position: relative;
+  top: -1px;
+}
