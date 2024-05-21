@@ -1,0 +1,29 @@
+[
+  {
+    "nameLeague": "Liga Chilena",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfr8g06ROkgKBlr1M3vBIMfm8gfn4t1B5TtVU0RdGdcw&s",
+    "teams": [
+      "Colo Colo",
+      "Universidad de Chile",
+      "Universidad Católica",
+      "Palestino",
+      "Audax Italiano"
+    ]
+  },
+  {
+    "nameLeague": "Liga Argentina",
+    "url": "https://media.licdn.com/dms/image/C560BAQHqpU0ZwUWWXQ/company-logo_200_200/0/1630658286646/superliga_logo?e=2147483647&v=beta&t=QBj9dW_vili5-nH-_XnYMsandOLKWK1Ze355USoRZHY",
+    "teams": [
+      "River Plate",
+      "Boca Juniors",
+      "Independiente",
+      "Racing Club",
+      "San Lorenzo"
+    ]
+  },
+  {
+    "nameLeague": "Liga Brasileña",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQI_LUwWmMr4rSSWQpR-RRGKKQyLFZ2gJmWqoUsNyzGQ&s",
+    "teams": ["Flamengo", "Sao Paulo", "Palmeiras", "Corinthians", "Santos"]
+  }
+]

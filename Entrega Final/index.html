@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link para usar tostify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Entrega Final</title>
+  </head>
+  <body>
+    <main>
+      <h1>Ligas y Equipos</h1>
+      <section class="inputs">
+        <input id="filterLeagues" type="text" placeholder="Filtrar Liga..." />
+        <article class="add">
+          <h2>Agregar Liga</h2>
+          <input
+            id="leagueName"
+            type="text"
+            placeholder="Nombre de la Liga..."
+          />
+          <input
+            id="leagueLogo"
+            type="text"
+            placeholder="Imagen URL (200x200)..."
+          />
+          <button id="addLeague">Añadir Liga</button>
+        </article>
+        <article class="add">
+          <h2>Agregar Equipos</h2>
+          <select id="selectLeague"></select>
+          <input id="teamName" type="text" placeholder="Nombre del Equipo..." />
+          <button id="addTeam">Añadir Equipo</button>
+        </article>
+        <div class="container-storages">
+          <button id="cleanStorage">Limpiar Local Storage</button>
+          <button id="getDBLeagues">Solo ligas desde fetch</button>
+        </div>
+      </section>
+
+      <section id="containerLeagues"></section>
+    </main>
+  </body>
+  <!-- Importamos el script de toastify -->
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/toastify-js"
+  ></script>
+  <script src="script.js"></script>
+</html>
